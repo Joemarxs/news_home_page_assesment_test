@@ -3,58 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Homepage</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>News page website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <header class="header">
-        <div class="logo-container">
-            <img src="images/logo.svg" alt="">
-        </div>
-        <nav class="nav-links">
-            <ol>
-                <li>Home</li>
-                <li>New</li>
-                <li>Popular</li>
-                <li>Trending</li>
-                <li>Categories</li>
-            </ol>
-        </nav>
+    <header class="navigation-bar">
+        <img src="images/logo.svg" alt="">
+        <ul class="nav-links">
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categories</li>
+        </ul>
     </header>
-    <main>
-        <section class="hero-section">
-            <div class="hero-left">
+    <main class="hero-section">
+        <section class="top-hero">
+            <div class="top-left-hero">
                 <img src="images/image-web-3-desktop.jpg" alt="">
-                <div class="description-container">
+                <div class="hero-section-text">
                     <h1>The Bright<br> Future of<br> Web 3.0?</h1>
                     <div>
-                        <p>We dive into the next evolution of the web<br>
-                            that claims to put the power of the platforms back<br>
-                            into the hands of the people. <br>
-                            But is it really fulfilling its promise? </p>
-                        <h4>READ MORE</h4>
+                        <p class="context">We dive into the next evolution of the web that<br>
+                           claims to put the power of the platforms back<br>
+                           into the hands of the people. But is it really<br>
+                           fulfilling its promise?
+                        </p>
+                        <p class="read-more">READ MORE</p>
                     </div>
                 </div>
             </div>
-            <div class="hero-right">
+            <aside class="top-right-hero">
+        
                 <h1>New</h1>
-                <h3>Hydrogen vs Electric Cars</h3>
-                <p>will hydrogen-fueled cars ever catch up to<br> EVs?</p>
-                <h3>The Downsides of AI Artistry</h3>
-                <p>What are the possible adverse effects of<br>
-                        on-demand Ai image generation?
-                </p>
-                <h3>Is VC Funding Drying Up?</h3>
-                <p>Private funding by VC firms down 50%<br>
-                    YOY.We take a look at what that means.
-                </p>
+                <div>
+                    <h3>Hydrogen vs Electric Cars</h3>
+                    <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <hr />
+                <div>
+                    <h3>The Downsides of AI Artistry</h3>
+                    <p>What are the possible adverse effects of on-demand AI image generation?</p>
+                </div>
+                
+                <hr />
+                <div>
+                    <h3>Is VC Funding Drying Up?</h3>
+                    <p>Private funding by VC firms is down 50% YOY.We take a look at what that means.</p>
+                </div>
+                
+            </aside>
+        </section>
+        <section class="bottom-hero">
+            <div class="news-card">
+                <img src="images/image-retro-pcs.jpg" alt="News 1" />
+                <div class="text">
+                    <h4>01</h4>
+                    <h3>Reviving Retro PCs</h3>
+                    <p>What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="images/image-top-laptops.jpg" alt="News 2" />
+                <div class="text">
+                    <h4>02</h4>
+                    <h3>Top 10 Laptops of 2022</h3>
+                    <p>Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div class="news-card">
+                <img src="images/image-gaming-growth.jpg" alt="News 3" />
+                <div class="text">
+                    <h4>03</h4>
+                    <h3>The Growth of Gaming</h3>
+                    <p>How the pandemic has sparked fresh opportunities.</p>
+                </div>
             </div>
         </section>
-        
-
     </main>
-    
-
     
 </body>
 </html>
