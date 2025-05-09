@@ -127,7 +127,8 @@ hr{
     width: 30%;
 }
 .text h4{
-    color: hsl(35, 77%, 62%);
+    color: hsl(5, 85%, 63%);
+    font-size: 25px;
     margin-bottom: 0px;
 }
 .text h3{
